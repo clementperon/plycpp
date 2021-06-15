@@ -58,7 +58,7 @@ namespace plycpp
 	template<typename Key, typename T>
 	struct KeyData
 	{
-		KeyData(const Key key, const T& data)
+		KeyData(const Key& key, const T& data)
 		{
 			this->key = key;
 			this->data = data;
